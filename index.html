@@ -9,40 +9,83 @@
 <body>
     <header>
         <nav>
-            <div class="logo">
-                <img src="img/logo.png" alt="CozyCup Café Logo">
-            </div>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="home" class="hero">
-        <h1>Welcome to CozyCup Café</h1>
-        <p>Discover Your Perfect Brew</p>
-        <a href="#menu" class="cta-button">Explore Menu</a>
+        <div class="inside">
+            <div class="logo">
+                <img src="img/logo.png" alt="CozyCup Café Logo">
+            </div>
+            <h1>Welcome to CozyCup Café</h1>
+            <p><b>Discover Your Perfect Brew</b></p>
+            <p><b>&quot;Sip, Relax, Repeat&quot;</b></p>
+            <a href="menu.html" class="cta-button">Explore Menu</a>
+        </div>
     </section>
 
-    <section id="menu" class="menu">
-        <h2>Our Menu</h2>
-        <!-- Add menu items here -->
+    <section id="featured" class="products">
+        <div class="top">
+            <h2>Featured Products</h2>
+        </div>
+
+        <div class="product-gallery">
+            <div class="product-item">
+                <img src="img/french_vanilla.webp" alt="French Vanilla Coffee">
+                <h3>French Vanilla Coffee</h3>
+                <p>"Smooth, Sweet, and Simply Irresistible – The Classic French Vanilla Delight!"</p>
+            </div>
+
+            <div class="product-item">
+                <img src="img/hazelnut.webp" alt="Hazelnut Coffee">
+                <h3>Hazelnut Coffee</h3>
+                <p>"Rich, Roasty, and Nutty – A Perfect Hug in a Mug!"</p>
+            </div>
+
+            <div class="product-item">
+                <img src="img/pepermint.webp" alt="Peppermint Coffee">
+                <h3>Peppermint Coffee</h3>
+                <p>"Cool, Refreshing, and Full of Festive Flavor – The Perfect Peppermint Pick-Me-Up!"</p>
+            </div>
+        </div>
     </section>
 
-    <section id="about" class="about">
-        <h2>About Us</h2>
-        <p>Discover the story behind CozyCup Café...</p>
-    </section>
-
-    <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <p>Have questions or feedback? Reach out to us...</p>
-    </section>
-
+    <!-- Footer Section -->
     <footer>
+        <div class="footer-container">
+            <!-- Contact Information -->
+            <div class="footer-section contact-info">
+                <h3>Contact Us</h3>
+                <p><strong>Address:</strong> Tagburos Puerto Princesa City, Palawan, Philippines</p>
+                <p><strong>Phone:</strong> +63 927 152 5116</p>
+                <p><strong>Email:</strong> <a href="mailto:info@cozycupcafe.com">kenjek@cozycupcafe.com</a></p>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="footer-section social-media">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#"><img src="img/fb.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="img/x.png" alt="X"></a></li>
+                    <li><a href="#"><img src="img/ig.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter Signup -->
+            <div class="footer-section newsletter">
+                <h3>Subscribe to Our Newsletter</h3>
+                <form action="#" method="POST">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
         <p>&copy; 2023 CozyCup Café. All rights reserved.</p>
     </footer>
 </body>

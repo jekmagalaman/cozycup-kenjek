@@ -1,0 +1,118 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f2e0;
+    color: #4c3c32;
+}
+
+header {
+    background-color: #1b0a00;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    background-image: url('C:/Users/HP/Desktop/to edit/img/hero-bg.jpg');
+    background-size: cover;
+}
+
+header:hover {
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #caaf9f;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #7e685b;
+}
+
+.logo img {
+    max-width: 100px;
+    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);*/
+}
+
+.menu {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    background-color: #d4b286;
+}
+
+.menu-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+.menu-item h3 {
+    font-size: 1.8rem;
+    color: #333;
+    background-color: #ffeed8;
+}
+
+.menu-item p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+footer {
+    background-color: #4c3c32;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer nav ul li a:hover {
+    color: #d4b59f;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0;
+}
